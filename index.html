@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Tasbih</title>
+    <link rel="shortcut icon" href="./image/fav_tajbih.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div>
+                <h1 class="text-5xl font-bold text-center my-[7rem]">Digital Tajbih</h1>
+            </div>
+            <div class="flex flex-col lg:flex-row mb-[5rem] gap-5 justify-center items-center">
+                <div class="card w-96  text-neutral-content">
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-black text-[2rem]">Subhan Allah</h2>
+                      <p id="cntIncriment1" class="text-[#475569] text-xl my-[1rem]">0</p>
+                      <div class="card-actions justify-end">
+                        <button id="SubhanAllahIncrement" class="btn bg-[#16a34a] text-white hover:text-black">Increment</button>
+                        <button id="SubhanAllahDecrement" class="btn bg-[#f43f5e] text-white hover:text-black">Decrement</button>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card w-96  text-neutral-content">
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-black text-[2rem]">Alhamdulliah</h2>
+                      <p id="cntIncriment2" class="text-[#475569] my-[1rem]">0</p>
+                      <div class="card-actions justify-end">
+                        <button id="AlhamdulliahIncrement" class="btn bg-[#16a34a] text-white hover:text-black">Increment</button>
+                        <button id="AlhamdulliahDecrement" class="btn bg-[#f43f5e] text-white hover:text-black">Decrement</button>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card w-96  text-neutral-content">
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-black text-[2rem]">Allahuwakbar</h2>
+                      <p id="cntIncriment3" class="text-[#475569] my-[1rem]">0</p>
+                      <div class="card-actions justify-end">
+                        <button id="AllahuwakbarIncrement" class="btn bg-[#16a34a] text-white hover:text-black">Increment</button>
+                        <button id="AllahuwakbarDecrement" class="btn bg-[#f43f5e] text-white hover:text-black">Decrement</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="flex justify-center">
+                <button id="resetAllBttn" class="btn bg-[tomato] text-white hover:text-black">Reset Tajbih</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
